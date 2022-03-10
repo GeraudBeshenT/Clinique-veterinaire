@@ -1,0 +1,270 @@
+/*Menu*/
+body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	width: 100%;
+	background-color: cyan;
+}
+nav ul{
+	margin-left: 25%;
+	padding: 0px;
+	overflow: hidden;
+}
+nav ul li{
+	list-style-type: none;
+	float: left;
+}
+nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: black;
+}
+.Index-html:hover{
+	border-top: 5px solid black;
+	background-color: grey;
+}
+.Clinique-html:hover{
+	border-top: 5px solid black;
+	background-color: grey;
+}
+.Info-html:hover{
+	border-top: 5px solid black;
+	background-color: grey;
+}
+.Contact-html:hover{
+	border-top: 5px solid black;
+	background-color: grey;
+}
+ nav ul li:hover a{
+	padding: 15px 30px 20px 30px;
+	color: white;
+	text-decoration: none;
+}
+.logo2{
+	width: 70px;
+	border-radius: 20px;
+	width: 65px;
+	height: 64px;
+}
+/*index*/
+/*titre*/
+.Intro{
+	background-color: #26A5DA;
+	color: black;
+	padding: 3%;
+	text-align: center;
+	margin-top: -16px;
+	font-family: Lucida Handwriting;
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.Intro2{
+	background-color: #26A5DA;
+	margin-top: -35px;
+	text-align: center;
+	color:#004A72;
+	font-family:Lucida Console;
+	font-size: 30px;
+	font-weight: normal;
+}
+/*text content*/
+.Text1Right{
+	border: 1px solid black;
+	padding: 0.8%;
+	margin-left: 800px;
+	margin-top: 13.5%;
+	position: absolute;
+	background-color: rgba(38,165,218,0.7);
+	border-radius: 20px;
+}
+.Text1Left{
+	border: 1px solid black;
+	margin-right: 750px;
+	padding: 0.5%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 10%;
+	position: absolute;
+	background-color: rgba(38,165,218,0.7);
+	border-radius: 20px;
+}
+.photo{
+	float: right;
+	margin-top: 37%;
+	margin-bottom: 1%;
+	margin-right: 7%;
+}
+/*clinique*/
+h1
+{
+	display:block;
+	background-color:grey;
+	color: blue;
+	width: 90%;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	border:5px solid black;
+	border-radius: 10px;
+	vertical-align:middle;
+	line-height:auto;
+}
+.carousel-item active{
+ text-align: center;
+}
+.responsive {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  align-items: center;
+}
+.demo
+{
+	align-items:middle;
+}
+.logo{
+	border: 2px solid blue;
+	border-radius: 10px;
+}
+.text-clinique{
+	background-color:  #26A5DA;
+	text-align: center;
+	font-size: 140%;
+	padding: 1%;
+}
+/*Bouton carousel*/
+.carousel-control-prev{
+	margin-top: 25%;
+	margin-left: 5%;
+}
+.carousel-control-next{
+	margin-top: 25%;
+	margin-right: 5%;
+}
+/*Info*/
+.Informations{
+	background: lightgrey;
+}
+table{
+   margin: auto;
+   width: 80%; 
+}
+iframe{
+   margin: auto;
+   width: 100%; 
+
+}
+.box{
+	width: 850px;
+	margin: 100px auto;
+	background: grey;
+	border-radius: 7px;
+}
+.box .heading{
+	background: blue;
+	color: white;
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px;
+	text-align: center;
+}
+.info{
+	padding: 10px 30px
+}
+details{
+	background:  #ffffff;
+	padding: 10px;
+	border-radius: 7px;
+}
+details summary{
+	outline: none;
+}
+details:hover{
+	background-color: #eeeeee;
+	transition: 1s ease-out;
+}
+thead{
+	background-color: black;
+	color: white;
+}
+tbody{
+	border: black solid 1px;
+}
+.tarifs{
+	text-align: right;
+}
+.Localisation{
+	text-align: center;
+}
+/*Contact*/
+.fond-contact{
+	background-color:  #26A5DA;
+	text-align: center;
+	padding-bottom: 0.5%;
+	padding-top: 1%;
+	margin-top: -16px;
+}
+.mail{
+	color: white;
+}
+.mail:hover{
+	text-decoration: none;
+	background-color: black;
+	color:  #26A5DA;
+	transition: 1s ease-out;
+}
+.container{
+	background-color: grey;
+	border-radius: 50px;
+}
+label{
+	background-color: cyan;
+	padding: 2px;
+	border-radius: 4px;
+}
+p{
+	background-color: cyan;
+	text-align: center;
+	border-radius: 20px;
+}
+/*footer*/
+.footer{
+	margin-top: 30%;
+	padding: 1%;
+	background-color: cyan;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	border: 0px solid cyan;
+	text-align: center;
+}
+.footer-content a{
+	color: #273746;
+	text-decoration: underline;
+	text-align: center;
+}
+.footer-content a:hover{
+	text-decoration: none;
+	background-color: black;
+	color: cyan;
+	transition: 1s ease-out;
+}
+.footerhead{
+	border: 0px;
+	background-color: cyan;
+}
+.footer-bottom{
+	background-color: grey;
+}
+/*Admin*/
+input{
+	background-color: black;
+	color: white;
+}
+.slider{
+	text-align: center;	
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/logo.ico" type="text/cgoaccueil.ico" type="image/x-icon" >
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css"/>
+</head>
+<body class="Contact">
+<!-- menu -->
+<nav class="header-menu">
+    <div class="menu-central">
+    <ul>
+        <li class="Index-html">
+            <a href="Index.html">Accueil</a></li>
+        <li class="Clinique-html">
+            <a href="Clinique vétérinaire.html">Clinique vétérinaire</a></li>
+        <li class="Info-html">
+            <a href="Informations.html">Informations</a></li>
+        <li class="Contact-html">
+            <a href="Contact.html">Contact</a></li>
+        <a href="Index.html"><img class="logo2" src="img/logo.png"></a>
+        
+    </ul>
+    </div>
+</nav>
+<!-- Text contact -->
+<div class="fond-contact">
+    <h2>Prendre contact avec le cabinet vétérinaire</h1>
+        <h5>Nous sommes joignables par téléphone au <code>07.65.43.21.09</code><br>
+            Et par mail <a class="mail" href="#">veterinairebrive@contact.fr</a></h5>
+</div><br>
+<!-- Formulaire BDD -->
+        <div class="container"><br>
+                <p class="a">Informations à propos de vous. Celles ci ne seront pas divulgés.</p>
+            <div class="row">
+                <div class="col">
+                    <form method="POST" action="insert.php">
+                        <div class="row">
+                            <div class="col">
+                                <b for="Nom"> Nom : </b>
+                                <input type="text" class="form-control" id="Nom" placeholder="Entrez votre nom de famille dans l'encadré" name="Nom" required="">
+                            </div>
+                            <div class="col">
+                                <b for="Prenom"> Prénom : </b>
+                                <input type="text" class="form-control" id="Prenom" placeholder="Entrez votre prenom dans l'encadré" name="Prenom" required="">
+                            </div>
+                        </div><br>
+                        <div class="row">
+                            <div class="col">
+                                <b for="Telephone"> Téléphone : </b>
+                                <input type="number" class="form-control" id="Telephone" placeholder="0X XX XX XX XX" name="Telephone" required="">
+                            </div>
+                            <div class="col">
+                                <b for="Email"> Email : </b>
+                                <input type="text" class="form-control" id="Email" placeholder="Entrez votre Email dans l'encadré" name="Email" required="">
+                            </div>
+                        </div><br>
+                        <div>
+                            <b for="Adresse"> Adresse : </b>
+                            <input type="text" class="form-control" id="Adresse" placeholder="Entrez votre adresse domicile dans l'encadré" name="Adresse" required="">
+                        </div><br>
+                        <div class="row">
+                            <div class="col">
+                                <b for="Code_Postal"> Code Postal : </b>
+                                <input type="number" class="form-control" id="Code_Postal" placeholder="XX XXX" maxlength="5" name="Code_Postal" required="">
+                            </div><br>
+                            <div class="col">
+                                <b for="Ville"> Ville : </b>
+                                <input type="text" class="form-control" id="Ville" placeholder="Entrez votre ville dans l'encadré" name="Ville" required="">
+                            </div>
+                        </div><br>
+
+                            <p class="b">Prise de rendez vous ci dessous</p>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <b for="J">jour</b><br>
+                                <select name="J">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <b for="M">Mois</b><br>
+                                <select name="M">
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4">
+                                <b for="A">Année</b><br>
+                                <select name="A">
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <b for="H">Heure</b><br>
+                                <select name="H">
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <b for="min">minute</b><br>
+                                <select name="min">
+                                    <option value="00">00</option>
+                                    <option value="15">15</option>
+                                    <option value="30">30</option>
+                                    <option value="45">45</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br>
+
+                            <div>
+                                <b for="Animal"> Animal : </b>
+                                <input type="text" class="form-control" id="Animal" placeholder="Entrez l'animal que vous souhaitez que nous oscultions dans l'encadré" name="Animal" required="">
+                            </div><br>
+                            <div>
+                            <b for="Descriptif"> Descriptif Animal : </b>
+                            <input type="text" class="form-control" id="Descriptif" name="Descriptif">
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-dark"> Envoyer </button><br><br>
+                    </form>
+                </div>
+            </div>
+        </div><br>
+<!-- bas de page -->
+    <div class="footer">
+        <div class="footer-content">
+        <p class="Horaires">
+            <table class="footerhead">
+        <thead>
+            <tr>
+                <th class="Propos">À Propos</th>
+                <th class="Réseaux">Réseaux sociaux</th>
+                <th class="Contact">Contact</th>
+            </tr>
+        </thead>
+            <tbody class="footer">
+                <td class="Propos">
+                    <a href="#">Mentions légales</a></td>
+                <td class="Réseaux">
+                    <a href="#">Facebook</a></td>
+                <td class="Contact">Une urgence ? demande de rendez vous ?
+                    c'est ici:<br>
+                    <a href="#">07.65.43.21.09</td>
+            </tbody>
+            <tbody class="footer">
+                <td class="Propos">
+                    <a href="#">Conditions générales</a></td>
+                <td class="Réseaux">
+                    <a href="#">Instagram</a></td>
+                <td class="Contact">Une question ? <br>ici aussi
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRQPGKFTllXGDKRVWrMVjXhsQjqLgDtVVWdnsQvbMJdsZWRjbqMcQwzslMZLNfNwlXghxL">veterinairebrive@contact.fr</td>
+            </tbody>
+            <div class="page">
+            <tbody class="footer">
+                <td></td>
+                <td class="Réseaux">
+                    <a href="#">LinkedIN</a></td>
+                <td></td>
+            </tbody></div>
+</table><br>
+<div class="footer-bottom">
+        &copy; www.Clinique_Vétérinaire_Brive.fr | 2020-Géraud_BeshenT
+</div>
+</body>
+</html>
